@@ -1,0 +1,39 @@
+{
+  "name": "wheregroup/gml-parser",
+  "description": "Wheregroup gml element",
+  "keywords": [
+    "wheregroup",
+    "gml",
+    "parser",
+    "gis"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohamed Tahrioui",
+      "email": "mohamed.tahrioui@wheregroup.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "WhereGroup\\GmlParserBundle\\": "."
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/mapbender/mapbender-starter"
+    }
+  ], "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
